@@ -4,8 +4,8 @@ threadsafe: yes
 
 handlers:
   - url: /
-    static_files: dist/demo-ui-app/index.html
-    upload: dist/demo-ui-app/index.html
+    static_files: dist/demo-cicd-app/index.html
+    upload: dist/demo-cicd-app/index.html
   - url: /
     static_dir: dist/demo-ui-app
 
